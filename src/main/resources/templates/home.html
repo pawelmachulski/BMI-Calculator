@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="content">
+<h2>Oblicz swój wskaźnik BMI</h2>
+<form action="/calculate" th:method="post">
+    <input type="text" name="weight" placeholder="Waga w kilogramach"><br>
+    <input type="text" name="height" placeholder="Wzrost w centymetrach"><br>
+    <input type="submit" value="Oblicz BMI"><br><br>
+
+    <p th:text="${result}">Twój wskaźnik BMI wynosi: </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+background-image: url("http://www.ketonedrops.com/wp-content/uploads/2014/10/Male-Fitness-Models.jpg");
+}
+h2{
+color: white;
+}
+p{
+color:white
+}
+#content{
+width:329 px;
+float: center;
+}
+div{
+display: block;
+}
