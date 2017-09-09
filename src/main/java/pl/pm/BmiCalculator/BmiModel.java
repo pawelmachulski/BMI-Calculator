@@ -32,9 +32,8 @@ public class BmiModel {
 
     public String bmi(double height, double weight){
         double bmi = weight*10000/(height*height);
-//        String bmires = Double.toString(bmi);
         String bmiresult = String.format("%.2f", bmi);
         return bmiresult;
     }
 
-}
+    }
